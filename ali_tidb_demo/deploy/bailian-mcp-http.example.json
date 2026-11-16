@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tidb-enterprise-agent": {
+      "type": "sse",
+      "url": "https://<YOUR_FUNCTION_AI_HOST>/sse",
+      "headers": {
+        "Authorization": "Bearer <YOUR_FUNCTION_AI_MCP_TOKEN>"
+      }
+    }
+  }
+}
